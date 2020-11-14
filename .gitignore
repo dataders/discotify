@@ -128,4 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# app secrets
 token_*.txt
+*_spotify.txt
+
+.vscode/
