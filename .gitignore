@@ -133,3 +133,4 @@ token_*.txt
 *_spotify.txt
 
 .vscode/
+*.pem
