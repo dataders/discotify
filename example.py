@@ -3,6 +3,14 @@ import discord
 with open('token_discord.txt') as f:
     token = f.read()
 
+with open('id_spotify.txt') as f:
+    client_id = f.read()
+with open('secret_spotify.txt') as f:
+    client_secret = f.read()
+with open('redirect_spotify.txt') as f:
+    redirect_uri = f.read()
+with open('username_spotify.txt') as f:
+    username = f.read()
 class MyClient(discord.Client):
     async def on_ready(self):
         print('Logged on as', self.user)
